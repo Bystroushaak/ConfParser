@@ -1,4 +1,4 @@
-Configuration using this simple format:
+Configuration has simple format:
 
 ----
 KEY = VAL # oneline comment
@@ -10,4 +10,4 @@ API:
 		This function reads string in 'conf' variable and returns associative array. Comments are
 		ignored.
 
-		'def_conf' could specify default values for returned configuration.
+		'def_conf' could be used for specifying default values.
