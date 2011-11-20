@@ -1,0 +1,13 @@
+Configuration using this simple format:
+
+----
+KEY = VAL # oneline comment
+----
+
+API:
+|
+`--	string[string] parseConfiguration(string conf, string[string] def_conf = null)
+		This function reads string in 'conf' variable and returns associative array. Comments are
+		ignored.
+
+		'def_conf' could specify default values for returned configuration.
